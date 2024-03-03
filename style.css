@@ -1,0 +1,362 @@
+.main{
+    display: inline-block;
+    position: relative;
+}
+.image1{
+  position: absolute;
+  top: 0vh;
+  left:45vw;
+  background-image: url("pic1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 40vw;
+  -webkit-transition: 1s;
+  margin-right: 10vw;
+}
+.image1:hover{
+  -webkit-transform: rotateY(180deg);
+} 
+.image2{
+
+    position: absolute;
+  top: 0vh;
+  left:45vw;
+  background-image: url("pic2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 40vw;
+  -webkit-transition: 1s;
+  }
+  .image2:hover{
+    -webkit-transform: rotateY(180deg);
+  }
+  .image3{
+
+    position: absolute;
+  top: 0vh;
+  left:45vw;
+  background-image: url("pic3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 40vw;
+  -webkit-transition: 1s;
+  }
+  .image3:hover{
+    -webkit-transform: rotateY(180deg);
+  }
+  .image4{
+
+    position: absolute;
+  top: 0vh;
+  left:45vw;
+  background-image: url("pic4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 40vw;
+  -webkit-transition: 1s;
+  }
+  .image4:hover{
+    -webkit-transform: rotateY(180deg);
+  }
+  .svg1{
+    display: inline-block;
+    position: absolute;
+    height: 6vw;
+    width: 4vw;
+    background-image: url("arrow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 18vw;
+    top: 24vw;
+    cursor: pointer;
+
+  }
+
+.svg1:hover{
+  opacity: 0.6;
+
+}
+  .svg2{
+    display: inline-block;
+    position: absolute;
+    height: 6vw;
+    width: 4vw;
+    background-image: url("arrow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 16vw;
+    top: 24vw;
+    cursor: pointer;
+
+  }
+
+.svg2:hover{
+  opacity: 0.6;
+
+}
+  .svg3{
+    display: inline-block;
+    position: absolute;
+    height: 6vw;
+    width: 4vw;
+    background-image: url("arrow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 8vw;
+    top: 24vw;
+    cursor: pointer;
+    
+
+  }
+  .svg3:hover{
+    opacity: 0.6;
+
+  }
+  .svg4{
+    display: inline-block;
+    position: absolute;
+    height: 6vw;
+    width: 4vw;
+    background-image: url("arrow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 14vw;
+    top: 24vw;
+    cursor: pointer;
+
+  }
+
+.svg4:hover{
+  opacity: 0.6;
+
+}
+.main{
+    position: relative;
+    margin: right 10vw;;
+    top: 0px;
+    
+}
+.Collaborate{
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 3vh;
+    display: inline-block;
+    position: absolute;
+    height: 5vh;
+    width: 50vw;
+    left: 12vw;
+    padding: 0px;
+    top:0px
+    
+    
+
+}
+.Collaborate:hover{
+
+    opacity: 0.6;
+    left: 10vw;
+    transition-duration: 0.4s;
+    
+    
+}
+.a1{
+    display: inline-block;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    height: 40vw;
+    
+}
+.a2{
+    display: inline-block;
+    position: absolute;
+    top: 40vw;
+    left: 10vw;
+    height: 40vw;
+
+}
+.a3{
+    display: inline-block;
+    position: absolute;
+    top: 70vw;
+    left: 10vw;
+    height: 40vw;
+}
+.a4{
+    display: inline-block;
+    position: absolute;
+    top: 100vw;
+    left: 10vw;
+    height: 40vw;
+}
+
+.b1{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 5.5vw;
+    top: 2vw;
+    cursor: pointer;
+    padding: 1px;
+}
+.b1:hover{
+    font-size: 5.52vw;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px gray;
+    padding: 0px;
+}
+.c1{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 15vw;
+    
+    
+
+}
+
+
+.d1{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 25vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d1:hover{
+    opacity: 0.6;
+}
+.b2{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 5.5vw;
+    top: 2vw;
+    cursor: pointer;
+}
+.b2:hover{
+    font-size: 5.52vw;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px gray;
+    padding: 0px;
+}
+
+.c2{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 15vw;
+
+}
+
+.d2{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 25vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d2:hover{
+    opacity: 0.6;
+}
+.b3{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 5.5vw;
+    top: 2vw;
+    cursor: pointer;
+}
+.b3:hover{
+    font-size: 5.52vw;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px gray;
+    padding: 0px;
+}
+.c3{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 15vw;
+
+}
+.d3{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 25vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d3:hover{
+    opacity: 0.6;
+}
+.b4{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 5.5vw;
+    top: 2vw;
+    cursor: pointer;
+}
+.b4:hover{
+    font-size: 5.52vw;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px gray;
+    padding: 0px;
+}
+.c4{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 15vw;
+
+}
+.d4{
+    display: inline-block;
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    font-size: 2vw;
+    top: 25vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d4:hover{
+    opacity: 0.6;
+}
+#button2{
+    position: absolute;
+    top: 130vw;
+    left: 10vw;
+    width: 25vw;
+    height: 5vw;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Lets Collab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div>
+    <div class="main">
+      <div class="Collaborate">Lets Collaborate</div>
+      <div class="a1">
+        <div class="b1">AI+RPA is what we do</div>
+        <div>
+          <div class="image1"></div>
+        </div>
+        <div class="c1">
+          Future-Proof your business. Drive efficiency, profitability and
+          deliver on customer experience
+        </div>
+
+        <div class="d1">AI+RPA Automation</div>
+        <div class="svg1"></div>
+      </div>
+      <div class="a2">
+        <div class="b2">Make Bolder Choices</div>
+        <div>
+          <div class="image2"></div>
+        </div>
+        <div class="c2">
+          Digital focused strategies to realize market-changing ideas
+        </div>
+
+        <div>
+          <div class="d2">Build Better Apps</div>
+          <div class="svg2"></div>
+        </div>
+      </div>
+      <div class="a3">
+        <div class="b3">Innovate With speed</div>
+        <div>
+          <div class="image3"></div>
+        </div>
+        <div class="c3">
+          Create higher quality software, deliver on customer expectations and
+          business goals
+        </div>
+        <div>
+          <div class="d3">DevOps</div>
+          <div class="svg3"></div>
+        </div>
+      </div>
+      <div class="a4">
+        <div class="b4">Embrace cloud</div>
+        <div>
+          <div class="image4"></div>
+        </div>
+        <div class="c4">
+          With Cloud-First accelerate innovation and optimize performanc
+        </div>
+        <div>
+          <div class="d4">Cloud Services</div>
+          <div class="svg4"></div>
+        </div>
+      </div>
+      <button id="button2">Toggle Night Mode</button>
+    </div>
+  </div>
+    <script>
+      let btn = document.getElementById("button2");
+      let dir = true;
+      btn.addEventListener("click", function () {
+        if (dir == true) {
+          document.body.style.backgroundColor = "#212529";
+          document.body.style.color = "#f0f8ff";
+        } else {
+          document.body.style.backgroundColor = "aliceblue";
+          document.body.style.color = "#212529";
+        }
+        dir = !dir;
+      });
+    </script>
+  </body>
+</html>
